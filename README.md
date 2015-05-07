@@ -9,4 +9,7 @@ grep -r "scipy" *.py
 ### reduce size of pdf
 gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dNOPAUSE -dQUIET -dBATCH -sOutputFile=foo-compressed.pdf foo.pdf
 
+### unzip
+
+unzip file.zip -d destination_folder
 
