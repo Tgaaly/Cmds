@@ -13,3 +13,14 @@ gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dNOPAUSE -dQUIET -dBATCH -sOutput
 
 unzip file.zip -d destination_folder
 
+### list screens
+
+screen -list
+
+### create new screen
+
+screen -S new_screen_name
+
+### reconnect to screen
+
+screen -R screen_name
