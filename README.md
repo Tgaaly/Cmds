@@ -19,8 +19,8 @@ screen -list
 
 ### create new screen
 
-screen -S new_screen_name
+screen -S new_session_name
 
 ### reconnect to screen
 
-screen -R screen_name
+screen -R session_name
