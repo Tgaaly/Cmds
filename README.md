@@ -24,3 +24,7 @@ screen -S new_session_name
 ### reconnect to screen
 
 screen -R session_name
+
+### delete dettached session
+
+screen -X -S session_name quit
